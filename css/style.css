@@ -74,7 +74,7 @@ body img.set-height {
 }
 
 body img.set-100-height {
-  height: 100%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -243,6 +243,23 @@ body #section-2 .td-img-wrapper .td-img-text button:hover {
 
 body #section-3 img {
   border-radius: 8px 96px 8px 8px;
+}
+
+body #section-4 .td-img-wrapper {
+  position: relative;
+}
+
+body #section-4 .td-img-wrapper::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(53, 77, 175, 0.5);
+  position: absolute;
+  border-radius: 8px;
+}
+
+body #section-4 .td-img-wrapper img {
+  border-radius: 8px;
 }
 
 body #section-5 img {
