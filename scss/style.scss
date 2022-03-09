@@ -237,6 +237,11 @@ body{
         .td-img-wrapper{
             position: relative;
 
+            .td-img-text{
+                position: absolute;
+                top: 45%;
+            }
+
             &::before{
                 content: "";
                 height: 100%;
@@ -274,6 +279,11 @@ body{
     #section-4{
         .td-img-wrapper{
             position: relative;
+
+            .td-img-text{
+                position: absolute;
+                top: 45%;
+            }
 
             &::before{
                 content: "";
